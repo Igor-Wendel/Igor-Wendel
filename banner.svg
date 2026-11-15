@@ -1,48 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" role="img" aria-label="Igor Wendel, Desenvolvedor Web Full Stack">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" role="img" aria-label="Igor Wendel, Desenvolvedor Web Full Stack">
   <defs>
-    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1b2a"/>
-      <stop offset="1" stop-color="#1b3a5c"/>
-    </linearGradient>
-    <linearGradient id="luz" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3ddbd9" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#3ddbd9"/>
-      <stop offset="1" stop-color="#6ea8fe" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="borda"><rect width="1200" height="300" rx="18"/></clipPath>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1b2a"/><stop offset="1" stop-color="#16304d"/></linearGradient>
+    <linearGradient id="luz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ddbd9" stop-opacity="0"/><stop offset=".5" stop-color="#3ddbd9"/><stop offset="1" stop-color="#3ddbd9" stop-opacity="0"/></linearGradient>
+    <clipPath id="borda"><rect width="1200" height="280" rx="18"/></clipPath>
   </defs>
   <style>
-    .nome{font:700 64px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff}
-    .frase{font:500 28px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#9fd8ff;opacity:0;animation:troca 12s infinite}
+    .nome{font:700 68px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff}
+    .frase{font:500 26px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#9fd8ff;opacity:0;animation:troca 12s infinite}
     .f2{animation-delay:4s}.f3{animation-delay:8s}
-    .cod{font:400 18px Consolas,'Courier New',monospace;fill:#6ea8fe;opacity:.55}
     .cursor{fill:#3ddbd9;animation:pisca 1s steps(1) infinite}
     .faixa{animation:corre 6s linear infinite}
-    .no{fill:#3ddbd9;animation:pulsa 3s ease-in-out infinite}
-    .n2{animation-delay:1s}.n3{animation-delay:2s}
-    .entra{animation:sobe 1.2s ease-out both}
-    @keyframes troca{0%,2%{opacity:0;transform:translateY(8px)}6%,30%{opacity:1;transform:translateY(0)}34%,100%{opacity:0;transform:translateY(-8px)}}
+    .no{fill:#3ddbd9;animation:pulsa 3s ease-in-out infinite}.n2{animation-delay:1s}.n3{animation-delay:2s}
+    @keyframes troca{0%,2%{opacity:0}6%,30%{opacity:1}34%,100%{opacity:0}}
     @keyframes pisca{50%{opacity:0}}
-    @keyframes corre{from{transform:translateX(-600px)}to{transform:translateX(1200px)}}
-    @keyframes pulsa{0%,100%{opacity:.25}50%{opacity:1}}
-    @keyframes sobe{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}.frase{opacity:0}.f1{opacity:1}}
+    @keyframes corre{from{transform:translateX(-500px)}to{transform:translateX(1200px)}}
+    @keyframes pulsa{0%,100%{opacity:.2}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.f1{opacity:1}}
   </style>
   <g clip-path="url(#borda)">
-    <rect width="1200" height="300" fill="url(#fundo)"/>
-    <g stroke="#6ea8fe" stroke-opacity=".18" stroke-width="1.5" fill="none">
-      <path d="M820 60H960L1000 100H1120"/><path d="M780 150H900L940 190H1140"/><path d="M860 240H1010L1040 210H1160"/>
+    <rect width="1200" height="280" fill="url(#fundo)"/>
+    <g stroke="#6ea8fe" stroke-opacity=".16" stroke-width="1.5" fill="none">
+      <path d="M0 70H110L150 110H250"/><path d="M0 200H140L170 170H230"/><path d="M1200 80H1080L1040 120H950"/><path d="M1200 210H1060L1030 180H970"/>
     </g>
-    <circle class="no" cx="1120" cy="100" r="6"/><circle class="no n2" cx="1140" cy="190" r="6"/><circle class="no n3" cx="1160" cy="210" r="6"/>
-    <text class="cod" x="820" y="48">&lt;?php // sistemas que funcionam</text>
-    <g class="entra">
-      <text class="nome" x="70" y="130">Igor Wendel</text>
-      <rect class="cursor" x="432" y="78" width="6" height="58"/>
-    </g>
-    <text class="frase f1" x="72" y="190">Desenvolvedor Web Full Stack</text>
-    <text class="frase f2" x="72" y="190">PHP · SQL · JavaScript · Docker</text>
-    <text class="frase f3" x="72" y="190">2 sistemas em produção · 6.000+ colaboradores</text>
-    <rect class="faixa" x="0" y="232" width="600" height="3" fill="url(#luz)"/>
-    <text class="cod" x="72" y="268">Brasil · aberto a oportunidades e projetos</text>
+    <circle class="no" cx="250" cy="110" r="5"/><circle class="no n2" cx="230" cy="170" r="5"/><circle class="no n3" cx="950" cy="120" r="5"/><circle class="no" cx="970" cy="180" r="5"/>
+    <text class="nome" x="600" y="130" text-anchor="middle">Igor Wendel</text>
+    <rect class="cursor" x="800" y="76" width="6" height="60"/>
+    <text class="frase f1" x="600" y="186" text-anchor="middle">Desenvolvedor Web Full Stack</text>
+    <text class="frase f2" x="600" y="186" text-anchor="middle">PHP · SQL · JavaScript · Docker</text>
+    <text class="frase f3" x="600" y="186" text-anchor="middle">2 sistemas em produção · 6.000+ colaboradores</text>
+    <rect class="faixa" x="0" y="228" width="500" height="3" fill="url(#luz)"/>
   </g>
 </svg>
