@@ -19,7 +19,7 @@ Atuo em empresa e também como autônomo, criando sites e sistemas sob medida pa
 | Projeto | O que é | Tecnologias |
 |---|---|---|
 | [**SAF**](https://github.com/Igor-Wendel/SAF) | Sistema de Agendamento de Férias: agendamento e aprovação com as regras da CLT, programação anual, relatórios e integração com ERP e Active Directory. | PHP 8 · MariaDB · JavaScript · Docker |
-| [**CGV**](https://github.com/Igor-Wendel/CGV) | Controle Geral de Volantes: cobertura de postos por faltas, atestados, férias e desligamentos, com fechamento mensal, dashboard e notificações por perfil. | PHP · MariaDB · JavaScript · Docker |
+| [**CGV**](https://github.com/Igor-Wendel/CGV) | Controle Geral de Volantes: para empresas de terceirização, garante que nenhum posto de serviço fique descoberto em faltas, atestados, férias e desligamentos, com fechamento mensal, dashboard e notificações por perfil. | PHP · MariaDB · JavaScript · Docker |
 
 Os dois sistemas trabalham juntos: o SAF informa as férias aprovadas e o CGV organiza quem cobre cada posto.
 
@@ -39,6 +39,7 @@ Os dois sistemas trabalham juntos: o SAF informa as férias aprovadas e o CGV or
 <summary><b>▶ Clique para ver o que o CGV faz</b></summary>
 <br>
 
+- Feito para empresas que terceirizam serviços e precisam manter os postos cobertos para não ter desconto na fatura.
 - Solicitações de cobertura por falta, atestado, férias, afastamento e desligamento.
 - Designação de volantes dia a dia, com controle de quem está ocioso.
 - Fechamento mensal por contrato, com prazo de ajuste.
@@ -84,4 +85,4 @@ Aberto a oportunidades como desenvolvedor e a projetos como autônomo. Fale comi
 
 ---
 
-<sub>🇺🇸 **English:** Full stack web developer (PHP, SQL, JavaScript) and Computer Science student. I build web systems that replace manual controls with rule-based, auditable workflows. Two systems in production, used by 30+ people to manage 6,000+ employees: <a href="https://github.com/Igor-Wendel/SAF">SAF</a> (vacation scheduling) and <a href="https://github.com/Igor-Wendel/CGV">CGV</a> (workplace coverage management). Open to developer roles and freelance projects.</sub>
+<sub>🇺🇸 **English:** Full stack web developer (PHP, SQL, JavaScript) and Computer Science student. I build web systems that replace manual controls with rule-based, auditable workflows. Two systems in production, used by 30+ people to manage 6,000+ employees: <a href="https://github.com/Igor-Wendel/SAF">SAF</a> (vacation scheduling) and <a href="https://github.com/Igor-Wendel/CGV">CGV</a> (position coverage management for outsourcing companies). Open to developer roles and freelance projects.</sub>
