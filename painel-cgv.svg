@@ -1,35 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" width="100%" role="img" aria-label="CGV · Controle Geral de Volantes: painel ilustrativo">
-  <style>
-    text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;fill:#dbe7f3}
-    .t{font-size:26px;font-weight:700;fill:#fff}.s{font-size:15px;fill:#8fa6bd}.h{font-size:16px;font-weight:600}
-    .n{font-size:30px;font-weight:700;fill:#fff}.l{font-size:13px;fill:#8fa6bd}.v{font-size:14px;font-weight:600}.m{font-family:Consolas,'Courier New',monospace;font-size:12px;fill:#6f879e}
-    .bh{transform-box:fill-box;transform-origin:left;animation:cresceX 1.6s ease-out both}
-    .bv{transform-box:fill-box;transform-origin:bottom;animation:cresceY 1.4s ease-out both}
-    .vivo{animation:pulsa 2s ease-in-out infinite}
-    @keyframes cresceX{from{transform:scaleX(0)}}@keyframes cresceY{from{transform:scaleY(0)}}@keyframes pulsa{50%{opacity:.3}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
-  </style>
-  <rect width="1200" height="470" rx="16" fill="#0d1b2a"/>
-  <rect x="0" y="0" width="1200" height="6" rx="3" fill="#2bb3b1"/>
-  <text class="t" x="36" y="52">CGV · Controle Geral de Volantes</text><text class="s" x="36" y="78">Para empresas de terceirização: nenhum posto de serviço descoberto</text>
-  <circle class="vivo" cx="1050" cy="46" r="6" fill="#3fb950"/><text class="l" x="1064" y="51">em produção</text>
-  <rect x="36" y="100" width="230" height="74" rx="10" fill="#14273b"/><text class="n" x="54" y="140">82%</text><text class="l" x="54" y="162">dos dias cobertos</text>
-  <rect x="286" y="100" width="230" height="74" rx="10" fill="#14273b"/><text class="n" x="304" y="140">4</text><text class="l" x="304" y="162">perfis de acesso</text>
-  <rect x="536" y="100" width="230" height="74" rx="10" fill="#14273b"/><text class="n" x="554" y="140">mensal</text><text class="l" x="554" y="162">fechamento por contrato</text>
-  <rect x="786" y="100" width="230" height="74" rx="10" fill="#14273b"/><text class="n" x="804" y="140">diária</text><text class="l" x="804" y="162">sincronização com o ERP</text>
-  <text class="h" x="36" y="216">Solicitações por motivo</text>
-  <text class="l" x="36" y="253">Falta</text><rect x="170" y="236" width="360" height="24" rx="6" fill="#14273b"/><rect class="bh" style="animation-delay:0.00s" x="170" y="236" width="122" height="24" rx="6" fill="#6f7cf7"/><text class="v" x="542" y="253">34%</text>
-  <text class="l" x="36" y="293">Atestado</text><rect x="170" y="276" width="360" height="24" rx="6" fill="#14273b"/><rect class="bh" style="animation-delay:0.15s" x="170" y="276" width="101" height="24" rx="6" fill="#f0883e"/><text class="v" x="542" y="293">28%</text>
-  <text class="l" x="36" y="333">Férias</text><rect x="170" y="316" width="360" height="24" rx="6" fill="#14273b"/><rect class="bh" style="animation-delay:0.30s" x="170" y="316" width="76" height="24" rx="6" fill="#2bb3b1"/><text class="v" x="542" y="333">21%</text>
-  <text class="l" x="36" y="373">Afastamento</text><rect x="170" y="356" width="360" height="24" rx="6" fill="#14273b"/><rect class="bh" style="animation-delay:0.45s" x="170" y="356" width="40" height="24" rx="6" fill="#e3b341"/><text class="v" x="542" y="373">11%</text>
-  <text class="l" x="36" y="413">Desligamento</text><rect x="170" y="396" width="360" height="24" rx="6" fill="#14273b"/><rect class="bh" style="animation-delay:0.60s" x="170" y="396" width="22" height="24" rx="6" fill="#f85149"/><text class="v" x="542" y="413">6%</text>
-  <text class="h" x="640" y="216">Solicitações por dia da semana</text><line x1="640" y1="410" x2="1164" y2="410" stroke="#29425c"/>
-  <rect class="bv" style="animation-delay:0.00s" x="653" y="335" width="48" height="75" rx="4" fill="#2bb3b1"/><text class="l" x="677" y="430" text-anchor="middle">Dom</text><text class="v" x="677" y="327" text-anchor="middle">5</text>
-  <rect class="bv" style="animation-delay:0.08s" x="728" y="305" width="48" height="105" rx="4" fill="#2bb3b1"/><text class="l" x="752" y="430" text-anchor="middle">Seg</text><text class="v" x="752" y="297" text-anchor="middle">7</text>
-  <rect class="bv" style="animation-delay:0.16s" x="803" y="275" width="48" height="135" rx="4" fill="#2bb3b1"/><text class="l" x="827" y="430" text-anchor="middle">Ter</text><text class="v" x="827" y="267" text-anchor="middle">9</text>
-  <rect class="bv" style="animation-delay:0.24s" x="878" y="305" width="48" height="105" rx="4" fill="#2bb3b1"/><text class="l" x="902" y="430" text-anchor="middle">Qua</text><text class="v" x="902" y="297" text-anchor="middle">7</text>
-  <rect class="bv" style="animation-delay:0.32s" x="953" y="260" width="48" height="150" rx="4" fill="#2bb3b1"/><text class="l" x="977" y="430" text-anchor="middle">Qui</text><text class="v" x="977" y="252" text-anchor="middle">10</text>
-  <rect class="bv" style="animation-delay:0.40s" x="1028" y="335" width="48" height="75" rx="4" fill="#2bb3b1"/><text class="l" x="1052" y="430" text-anchor="middle">Sex</text><text class="v" x="1052" y="327" text-anchor="middle">5</text>
-  <rect class="bv" style="animation-delay:0.48s" x="1103" y="290" width="48" height="120" rx="4" fill="#2bb3b1"/><text class="l" x="1127" y="430" text-anchor="middle">Sáb</text><text class="v" x="1127" y="282" text-anchor="middle">8</text>
-  <text class="m" x="36" y="452">painel ilustrativo · dados fictícios</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" role="img" aria-label="CGV: painel"><style>svg{--bg:#0e1718;--card:#152224;--bd:#24383a;--tx:#eaf4f4;--sub:#93a9aa;--grid:#22373a;--ac:#12a3a8}text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.bh{transform-box:fill-box;transform-origin:left;animation:cx 1.5s ease-out both}.bv{transform-box:fill-box;transform-origin:bottom;animation:cy 1.3s ease-out both}.vivo{animation:pu 2s ease-in-out infinite}
+@keyframes cx{from{transform:scaleX(0)}}@keyframes cy{from{transform:scaleY(0)}}@keyframes pu{50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="0" y="0" width="1200" height="520" rx="16"  style="fill:var(--bg)"/>
+<text x="36" y="48" font-size="26" font-weight="800" text-anchor="start" style="fill:var(--tx)">CGV</text>
+<text x="101" y="48" font-size="17" font-weight="500" text-anchor="start" style="fill:var(--sub)">Controle Geral de Volantes</text>
+<circle cx="1052" cy="42" r="6" fill="#3fb950" class="vivo"/>
+<text x="1066" y="47" font-size="13" font-weight="400" text-anchor="start" style="fill:var(--sub)">em produção</text>
+<rect x="36" y="74" width="272" height="78" rx="10"  style="fill:var(--card);stroke:var(--bd)"/>
+<text x="52" y="100" font-size="13" font-weight="400" text-anchor="start" style="fill:var(--sub)">Solicitações no mês</text>
+<text x="52" y="134" font-size="28" font-weight="700" text-anchor="start" style="fill:var(--ac)">51</text>
+<rect x="322" y="74" width="272" height="78" rx="10"  style="fill:var(--card);stroke:var(--bd)"/>
+<text x="338" y="100" font-size="13" font-weight="400" text-anchor="start" style="fill:var(--sub)">Fechadas</text>
+<text x="338" y="134" font-size="28" font-weight="700" text-anchor="start" style="fill:#2e9e5b">39</text>
+<rect x="607" y="74" width="272" height="78" rx="10"  style="fill:var(--card);stroke:var(--bd)"/>
+<text x="623" y="100" font-size="13" font-weight="400" text-anchor="start" style="fill:var(--sub)">Abertas</text>
+<text x="623" y="134" font-size="28" font-weight="700" text-anchor="start" style="fill:#5b5375">9</text>
+<rect x="892" y="74" width="272" height="78" rx="10"  style="fill:var(--card);stroke:var(--bd)"/>
+<text x="908" y="100" font-size="13" font-weight="400" text-anchor="start" style="fill:var(--sub)">Dias cobertos</text>
+<text x="908" y="134" font-size="28" font-weight="700" text-anchor="start" style="fill:#f08231">82%</text>
+<rect x="36" y="172" width="556" height="314" rx="12"  style="fill:var(--card);stroke:var(--bd)"/>
+<text x="56" y="204" font-size="15.5" font-weight="700" text-anchor="start" style="fill:var(--tx)">Solicitações por motivo</text>
+<rect x="60" y="440" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="60" y="389" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="60" y="338" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="60" y="287" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="60" y="236" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="80" y="258" width="61" height="182" rx="5" class="bv" style="fill:#7a709c;animation-delay:0.00s"/>
+<text x="111" y="251" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">17</text>
+<text x="111" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Falta</text>
+<rect x="182" y="290" width="61" height="150" rx="5" class="bv" style="fill:#f08231;animation-delay:0.07s"/>
+<text x="212" y="283" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">14</text>
+<text x="212" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Atestado</text>
+<rect x="284" y="322" width="61" height="118" rx="5" class="bv" style="fill:var(--ac);animation-delay:0.14s"/>
+<text x="314" y="315" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">11</text>
+<text x="314" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Férias</text>
+<rect x="385" y="376" width="61" height="64" rx="5" class="bv" style="fill:#5a6fe0;animation-delay:0.21s"/>
+<text x="416" y="369" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">6</text>
+<text x="416" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Afastam.</text>
+<rect x="487" y="408" width="61" height="32" rx="5" class="bv" style="fill:#e74c3c;animation-delay:0.28s"/>
+<text x="517" y="401" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">3</text>
+<text x="517" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Deslig.</text>
+<rect x="608" y="172" width="556" height="314" rx="12"  style="fill:var(--card);stroke:var(--bd)"/>
+<text x="628" y="204" font-size="15.5" font-weight="700" text-anchor="start" style="fill:var(--tx)">Dias da semana com mais solicitações</text>
+<rect x="632" y="440" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="632" y="389" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="632" y="338" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="632" y="287" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="632" y="236" width="508" height="1" rx="0"  style="fill:var(--grid)"/>
+<rect x="647" y="349" width="44" height="91" rx="5" class="bv" style="fill:#5a6fe0;animation-delay:0.00s"/>
+<text x="668" y="342" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">5</text>
+<text x="668" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Dom</text>
+<rect x="719" y="312" width="44" height="127" rx="5" class="bv" style="fill:#5a6fe0;animation-delay:0.07s"/>
+<text x="741" y="306" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">7</text>
+<text x="741" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Seg</text>
+<rect x="792" y="276" width="44" height="164" rx="5" class="bv" style="fill:#5a6fe0;animation-delay:0.14s"/>
+<text x="813" y="269" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">9</text>
+<text x="813" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Ter</text>
+<rect x="864" y="312" width="44" height="127" rx="5" class="bv" style="fill:#5a6fe0;animation-delay:0.21s"/>
+<text x="886" y="306" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">7</text>
+<text x="886" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Qua</text>
+<rect x="937" y="258" width="44" height="182" rx="5" class="bv" style="fill:#5a6fe0;animation-delay:0.28s"/>
+<text x="959" y="251" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">10</text>
+<text x="959" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Qui</text>
+<rect x="1009" y="349" width="44" height="91" rx="5" class="bv" style="fill:#5a6fe0;animation-delay:0.35s"/>
+<text x="1031" y="342" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">5</text>
+<text x="1031" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Sex</text>
+<rect x="1082" y="294" width="44" height="146" rx="5" class="bv" style="fill:#5a6fe0;animation-delay:0.42s"/>
+<text x="1104" y="287" font-size="13" font-weight="700" text-anchor="middle" style="fill:var(--tx)">8</text>
+<text x="1104" y="460" font-size="12" font-weight="400" text-anchor="middle" style="fill:var(--sub)">Sáb</text>
+<text x="1164" y="506" font-size="11.5" font-weight="400" text-anchor="end" style="fill:var(--sub)">painel ilustrativo · dados fictícios</text>
 </svg>
