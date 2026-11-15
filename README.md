@@ -8,10 +8,10 @@ Atendo empresas, órgãos e projetos como autônomo.
 <p align="center"><b>Clique em um dos botões para abrir</b></p>
 
 <details>
-<summary><img src="https://img.shields.io/badge/SAF%20%C2%B7%20Sistema%20de%20Agendamento%20de%20F%C3%A9rias-2d3a9e?style=for-the-badge" alt="SAF, Sistema de Agendamento de Férias"></summary>
+<summary><b>🟦 SAF · Sistema de Agendamento de Férias</b></summary>
 <br>
 
-<img src="./painel-saf.svg" alt="Painel ilustrativo do SAF" width="100%">
+<a href="https://github.com/Igor-Wendel/SAF"><img src="./painel-saf.svg" alt="Painel ilustrativo do SAF" width="100%"></a>
 
 | O que resolve | Como |
 |---|---|
@@ -27,10 +27,10 @@ Atendo empresas, órgãos e projetos como autônomo.
 </details>
 
 <details>
-<summary><img src="https://img.shields.io/badge/CGV%20%C2%B7%20Controle%20Geral%20de%20Volantes-0b6b6b?style=for-the-badge" alt="CGV, Controle Geral de Volantes"></summary>
+<summary><b>🟩 CGV · Controle Geral de Volantes</b></summary>
 <br>
 
-<img src="./painel-cgv.svg" alt="Painel ilustrativo do CGV" width="100%">
+<a href="https://github.com/Igor-Wendel/CGV"><img src="./painel-cgv.svg" alt="Painel ilustrativo do CGV" width="100%"></a>
 
 | O que resolve | Como |
 |---|---|
@@ -46,7 +46,7 @@ Atendo empresas, órgãos e projetos como autônomo.
 </details>
 
 <details>
-<summary><img src="https://img.shields.io/badge/Como%20os%20dois%20se%20integram-3b4654?style=for-the-badge" alt="Como os dois se integram"></summary>
+<summary><b>🔗 Como os dois se integram</b></summary>
 <br>
 
 ```mermaid
