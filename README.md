@@ -75,7 +75,10 @@ flowchart LR
 
 ## Contato
 
-Aberto a oportunidades como desenvolvedor e a projetos como autônomo. Fale comigo pelo GitHub.
+Aberto a oportunidades como desenvolvedor e a projetos como autônomo.
+
+- 📧 **E-mail:** [igor@buildertech.com.br](mailto:igor@buildertech.com.br)
+- 📱 **Telefone / WhatsApp:** [+55 61 98423-7453](https://wa.me/5561984237453)
 
 ---
 
