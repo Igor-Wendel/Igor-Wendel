@@ -6,6 +6,11 @@
   <img src="https://skillicons.dev/icons?i=php,js,html,css,mysql,docker,git,gitlab,python&perline=9" alt="PHP, JavaScript, HTML, CSS, MySQL, Docker, Git, GitLab, Python">
 </p>
 
+<p align="center">
+  <a href="https://github.com/Igor-Wendel/SAF"><img src="https://img.shields.io/badge/Ver%20o%20SAF-2d3a9e?style=for-the-badge&logo=github&logoColor=white" alt="Ver o SAF"></a>
+  <a href="https://github.com/Igor-Wendel/CGV"><img src="https://img.shields.io/badge/Ver%20o%20CGV-0b6b6b?style=for-the-badge&logo=github&logoColor=white" alt="Ver o CGV"></a>
+</p>
+
 ## Olá, eu sou o Igor 👋
 
 **Desenvolvedor Web Full Stack** · PHP, SQL e JavaScript · estudante de Ciência da Computação
@@ -27,6 +32,8 @@ Os dois sistemas trabalham juntos: o SAF informa as férias aprovadas e o CGV or
 <summary><b>▶ Clique para ver o que o SAF faz</b></summary>
 <br>
 
+<img src="https://raw.githubusercontent.com/Igor-Wendel/SAF/main/docs/tour.gif" alt="Telas do SAF" width="100%">
+
 - Agendamento de férias com as regras da CLT: período aquisitivo, data limite, venda de dias e fracionamento.
 - Fluxo de aprovação por perfil (Gestor, RH, DP, Financeiro e Admin).
 - Sincronização diária com o ERP e login pela conta de rede.
@@ -38,6 +45,8 @@ Os dois sistemas trabalham juntos: o SAF informa as férias aprovadas e o CGV or
 <details>
 <summary><b>▶ Clique para ver o que o CGV faz</b></summary>
 <br>
+
+<img src="https://raw.githubusercontent.com/Igor-Wendel/CGV/main/docs/tour.gif" alt="Telas do CGV" width="100%">
 
 - Feito para empresas que terceirizam serviços e precisam manter os postos cobertos para não ter desconto na fatura.
 - Solicitações de cobertura por falta, atestado, férias, afastamento e desligamento.
